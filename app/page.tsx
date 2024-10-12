@@ -12,7 +12,7 @@ const Auth = () => {
     <div className="flex flex-col min-h-screen">
       <main className="flex flex-1 items-center justify-center translate-y-5">
         <div className="text-center">
-          <h1 className="tracking-tighter font-semibold text-5xl pb-8 bg-gradient-to-r from-emerald-700 to-green-700 text-transparent bg-clip-text">
+          <h1 className="tracking-tighter font-semibold text-5xl pb-8 bg-gradient-to-r from-emerald-700 to-green-900 text-transparent bg-clip-text">
             How can we help?
           </h1>
           <Authform />

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
+import ClientLayout from "./components/clientlayout"; // Import the ClientLayout
 
 // Import the Google Font "DM Sans"
 const dmSans = DM_Sans({
@@ -22,12 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${dmSans.variable} antialiased`}
-      >
-        {children}
+      <body className={`${dmSans.variable} antialiased`}>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
 }
+
+
+
 

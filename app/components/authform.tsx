@@ -1,6 +1,6 @@
 /** This is the actual form component, I did NOT use a container - the whole form (the green container included) is this component
 *As can be seen there are various DUMMY DATA which works with Selectauth.tsx 
-* on submit of the form it sends to the HOME page (/dashboard)
+* on submit of the form it sends to the HOME page (/tasks)
 */
 
 
@@ -59,7 +59,7 @@ const Authform = () => {
   // Function to handle final submit
   const handleSubmit = () => {
     // Redirect to the /dashboard page
-    router.push("/dashboard");
+    router.push("/tasks");
   };
 
   return (

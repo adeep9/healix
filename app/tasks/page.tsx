@@ -8,13 +8,12 @@
  */
 
 const Tasks = () => {
-  //get userId from session data
+  // get userId from session data
   return (
-    <div>
-        <h1>Tasks</h1>
-        <p>Task List</p>
+    <div className="bg-bg min-h-screen">
+      {/* Your content here */}
     </div>
-  )
-}
+  );
+};
 
-export default Tasks
+export default Tasks;
